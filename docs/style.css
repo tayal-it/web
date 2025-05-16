@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Noto Serif TC', serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #525198;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+a {
+    color: #757ee2;
+    text-decoration: none;
+}
+
+
+.card-link-hover .card {
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card-link-hover:hover .card,
+.card-link-hover:focus .card {
+    box-shadow: 0 8px 24px rgba(11, 74, 138, 0.2), 0 1.5px 6px rgba(0, 0, 0, 0.08);
+    transform: translateY(-4px) scale(1.03);
+    border-color: #0b4a8a;
+}
