@@ -22,6 +22,11 @@ a {
     text-decoration: none;
 }
 
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 
 .card-link-hover .card {
     transition: box-shadow 0.3s, transform 0.3s;
